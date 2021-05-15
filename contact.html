@@ -5,19 +5,60 @@
   </head>
   <link rel="stylesheet" href="css/style.css" />
   <body>
-    <div class="maincontainer">
-      <div class="logo">
-        <img src="images/2.png" alt="logo" width="250px" height="80px" />
+    <div class="container">
+      <div class="maincontainer">
+        <div class="logo">
+          <img src="images/2.png" alt="logo" width="250px" height="80px" />
+        </div>
+        <nav>
+          <a href="index.html">home</a>
+          <a href="topics.html">topics</a>
+          <a href="about.html">about</a>
+          <a href="#">contact</a>
+        </nav>
+        <div class="search">
+          <button>Search</button>
+        </div>
       </div>
-      <nav>
-        <a href="index.html">home</a>
-        <a href="topics.html">topics</a>
-        <a href="about.html">about</a>
-        <a href="#">contact</a>
-      </nav>
-      <div class="search">
-        <button>Search</button>
-      </div>
+
+      <form class="form">
+        <h3 class="heading">Fill in the Details below:</h3>
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        /><br />
+
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        /><br />
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+          <option value="australia">Mumbai</option>
+          <option value="canada">Delhi</option>
+          <option value="usa">Bangalore</option></select
+        ><br />
+
+        <label for="subject">Subject:</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+        ></textarea
+        ><br />
+        <label for="message">Message:</label>
+        <textarea id="msg"></textarea>
+        <div class="left-sec">
+          <button>Submit</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
