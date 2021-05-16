@@ -1,15 +1,9 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-     
+
 }
-.container{
- width:100%;
- height:100vh;
- background-image: url('../images/about.png');
- background-repeat: no-repeat;
- background-size: 100% 100%;
-}
+
 .topics-bg{
     width:100%;
     height:100vh;
@@ -87,36 +81,7 @@ margin:10px;
    margin:0px;
     border-radius: 20px;
 }
-.form{
-    font-size: 24px;
-    font-weight: 500;
-    width:600px;
-    text-align: center;
-    display: block;
-    justify-content: center;
-    margin: 20px;
-}
-.form>h3{
-margin:10px;
-color:blue
-}
-.form>#subject{
-    margin:10px;
-    height:100px;
-    width:200px;
-    vertical-align: top;
-}
-.form>#msg{
-    margin:10px;
-    height:200px;
-    width:400px;
-    vertical-align: top;
-}
-.form>#city{
-    margin:10px;
-}
-#lname, #fname{
-     margin:10px;
-    width:250px;
-    height:20px;
+
+a:hover {
+    text-shadow: 2px 2px blue;
 }

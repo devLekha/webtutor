@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/about.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.form {
+    font-size: 24px;
+    font-weight: 500;
+    width: 600px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: 20px;
+}
+
+.form>h3 {
+    margin: 10px;
+    color: blue
+}
+
+.form>#subject {
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.form>#msg {
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    vertical-align: top;
+}
+
+.form>#city {
+    margin: 10px;
+}
+#lname,
+#fname {
+    margin: 10px;
+    width: 250px;
+    height: 20px;
+}
+button{
+       width:100px;
+       height: 30px;
+       background-image:linear-gradient(blue, pink);
+       border-radius: 20px;
+       margin-left:50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.about {
+    margin: 10px;
+    display: block;
+    width: 600px;
+}
+
+.about h1 {
+    color: blue;
+    margin: 10px
+}
+
+.about p {
+    font-size: 22px;
+    margin: 10px
+}
+
+footer {
+    width: 550px;
+    display: block;
+    margin: 30px;
+}
+
+footer #copyright {
+    text-align: center;
+    width: 550px;
+}
+.topics-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.719), rgb(192, 227, 255));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
